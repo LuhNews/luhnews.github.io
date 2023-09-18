@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+html, body {
+	margin: 0;
+	font-family: 'Aldrich';
+	background-color: black;
+	color: white;
+}
+* {
+	transition: all 250ms;
+}
+header {
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(#82f658, #63b24400);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	text-shadow: 0 0 4px black;
+	text-align: center;
+}
+header h1 {
+	mix-blend-mode: color-burn;
+	font-size: 4rem;
+	margin: 8px;
+}
+a {
+	color: #82f658;
+	text-decoration: none;
+}
+nav {
+	display: flex;
+	column-gap: 1em;
+	justify-content: center;
+}
+nav li {
+	display: inline-block;
+	padding: 1em;
+	font-size: 1.5rem;
+	background: #1e1e1e;
+	border-radius: 2em;
+}
+nav li:hover {
+	background: #82f658;
+	color: #1e1e1e !important;
+}
+nav a {
+	color: inherit;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+.yeat {
+	text-align: center;
+	min-height: 600px;
+	background-image: linear-gradient(to right, #000000, transparent, #000000),
+					linear-gradient(#000000, transparent),
+					url(/images/yeat.webp);
+	background-size: cover;
+	background-position: top;
+}
+article {
+	font-family: serif;
+}
+article figure img {
+	max-width: 400px;
+}
+q {
+	font-style: italic;
+}
+main {
+	padding: 2em;
+}
+.flex {
+	display: flex;
+}
+@media only screen and (max-width: 717px) {
+	.flex {
+		flex-direction: column;
+	}
+}
+main.flex {
+	justify-content: space-between;
+}
+.notizia {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	align-items: center;
+	justify-content: center;
+}
+.notizia div {
+	max-width: 25ch;
+	text-align: left;
+	text-overflow: ellipsis;
+}
+.notizia img {
+	border-radius: 4px;
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+	}
