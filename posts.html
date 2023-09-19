@@ -1,0 +1,17 @@
+---
+layout: home
+---
+
+<ul id="notizie">
+{% for post in site.posts %}
+  <li class="notizia">
+    <img src="{{ post.image }}">
+      <div>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <h4>{{ post.title }}</h4>
+        </a>
+        <p>{{ post.excerpt }}</p>
+      </div>
+  </li>
+{% endfor %}
+</ul>
