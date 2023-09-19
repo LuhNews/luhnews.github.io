@@ -5,7 +5,7 @@ html, body {
 	font-family: 'Aldrich';
 	background-color: black;
 	color: white;
-	font-size: 1.25em;
+	font-size: 1.05em;
 }
 * {
 	transition: all 250ms;
@@ -38,7 +38,7 @@ nav {
 	justify-content: center;
 }
 p {
-	line-height: 1.5;
+	line-height: 1.2;
 }
 nav li {
 	display: inline-block;
