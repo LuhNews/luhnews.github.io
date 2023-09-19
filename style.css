@@ -5,6 +5,7 @@ html, body {
 	font-family: 'Aldrich';
 	background-color: black;
 	color: white;
+	font-size: 1.25em;
 }
 * {
 	transition: all 250ms;
@@ -35,6 +36,9 @@ nav {
 	display: flex;
 	column-gap: 1em;
 	justify-content: center;
+}
+p {
+	line-height: 1.5;
 }
 nav li {
 	display: inline-block;
