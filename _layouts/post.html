@@ -6,7 +6,12 @@ layout: default
   <a href="/">Luh Nëws</a>
   <time>{{ page.date | date: "%b %-d, %Y" }}</time>
   <h2>{{ page.title }}</h2>
+  <picture>
+    <img src="{{ page.image }}">
+  </picture>
 </header>
 <main>
-  {{ content }}
+  <article>
+    {{ content }}
+  </article>
 </main>
