@@ -37,8 +37,8 @@ nav {
 	column-gap: 1em;
 	justify-content: center;
 }
-p {
-	line-height: 1.2;
+article p {
+	line-height: 1.5;
 }
 nav li {
 	display: inline-block;
