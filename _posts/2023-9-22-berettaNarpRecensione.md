@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Recensione Beretta NARP
 image: /images/Beretta-NARP_07.jpg
 ---
