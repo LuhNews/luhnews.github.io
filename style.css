@@ -82,6 +82,14 @@ main {
 .flex {
 	display: flex;
 }
+.columns {
+	column-count: auto;
+	column-width: 400px;
+	column-gap: 0;
+}
+.columns * {
+	max-width: 400px;
+}
 @media only screen and (max-width: 717px) {
 	.flex {
 		flex-direction: column;
@@ -95,6 +103,7 @@ main.flex {
 	grid-template-columns: 25% 75%;
 	align-items: center;
 	justify-content: center;
+	column-gap: 16px;
 }
 .notizia div {
 	max-width: 25ch;

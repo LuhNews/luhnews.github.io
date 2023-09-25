@@ -2,3 +2,16 @@ title: Luh Nëws
 description: Il Miglior Sito di luh Wörld
 baseurl: ""
 excerpt_separator: . 
+defaults:
+  -
+    scope:
+      path: "meme"
+    values:
+      meme: true
+      video: false
+  -
+    scope:
+      path: "meme/video"
+    values:    
+      meme: true
+      video: true

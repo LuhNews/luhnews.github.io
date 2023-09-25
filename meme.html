@@ -1,0 +1,13 @@
+---
+layout: page
+---
+{% assign meme = site.static_files | where: "meme", true | where: "video", false %}
+{% assign videomeme = site.static_files | where: "meme", true | where: "video", true %}
+<div class="columns">
+	{% for memo in meme %}
+	<img src="{{ memo.path }}">
+	{% endfor %}
+	{% for videomemo in videomeme %}
+	<video controls src="{{ videomemo.path }}"></video>
+	{% endfor %}
+</div>
