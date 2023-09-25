@@ -79,6 +79,9 @@ q {
 main {
 	padding: 2em;
 }
+header.grosso {
+	min-height: 300px;
+}
 .flex {
 	display: flex;
 }
