@@ -99,10 +99,8 @@ main.flex {
 	justify-content: space-between;
 }
 .notizia {
-	display: grid;
-	grid-template-columns: 25% 75%;
+	display: flex;
 	align-items: center;
-	justify-content: flex-start;
 	column-gap: 8px;
 }
 .notizia div {
