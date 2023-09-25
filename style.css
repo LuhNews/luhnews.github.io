@@ -11,7 +11,7 @@ html, body {
 	transition: all 250ms;
 }
 header {
-	min-height: 300px;
+	min-height: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -102,7 +102,7 @@ main.flex {
 	display: grid;
 	grid-template-columns: 25% 75%;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	column-gap: 8px;
 }
 .notizia div {
