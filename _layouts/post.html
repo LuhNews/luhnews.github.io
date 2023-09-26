@@ -6,6 +6,7 @@ layout: default
   <a href="/">Luh Nëws</a>
   <time>{{ page.date | date: "%b %-d, %Y" }}</time>
   <h2>{{ page.title }}</h2>
+  {% if page.views %}<small>{{ page.views }} visualizzazioni</small>{% endif %}
 </header>
 <main>
   <picture id="cover">
