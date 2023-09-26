@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trovata penna di plastica inesplosa in un borsellino
-images: /images/IMG_20230926_110116.jpg
+image: /images/IMG_20230926_110116.jpg
 views: 1106
 ---
 
