@@ -2,33 +2,38 @@
 layout: home
 ---
 
-      <nav>
-        <li><a href="/news">Nëws</a>
-        <li><a href="/meme">Memë</a>
-      </nav>
+<nav>
+  <li><a href="/news">Nëws</a>
+  <li><a href="/meme">Memë</a>
+</nav>
 
-      <main class="flex">
-        <aside>
-          <h3>THE LATëST</h3>
-          <ul>
-            {% for post in site.posts limit:5 %}
-            <li class="notizia">
-              <img src="{{ post.image }}">
-              <div>
-                <a href="{{ site.baseurl }}{{ post.url }}">
-                  <h4>{{ post.title }}</h4>
-                </a>
-                <p>{{ post.excerpt }}</p>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </aside>
-
-        <aside>
-          <a href="/yeat-radio">
-            <img src="/images/YeatRadio.png" width=150><br>
-            <big><i>YEAT CONCERT</i></big>
+<main class="flex">
+  <aside>
+    <h3>THE LATëST</h3>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li class="notizia">
+        <img src="{{ post.image }}">
+        <div>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <h4>{{ post.title }}</h4>
           </a>
-        </aside>
-      </main>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+
+  <aside>
+    <h2>DëTTO DEL GIORNO</h2>
+    <blockquote>Non è bollo ciò che è bollo, ma è bollo ciò che non pago</blockquote>
+  </aside>
+
+  <aside>
+    <a href="/yeat-radio">
+      <img src="/images/YeatRadio.png" width=150><br>
+      <big><i>YEAT CONCERT</i></big>
+    </a>
+  </aside>
+</main>
