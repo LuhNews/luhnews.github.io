@@ -1,7 +1,7 @@
 title: Luh Nëws
 description: Il Miglior Sito di luh Wörld
 baseurl: ""
-excerpt_separator: . 
+excerpt_separator: ". "
 defaults:
   -
     scope:
