@@ -12,7 +12,8 @@ si tratta di articoli di lusso: la cura dell'esperienza del cliente è davvero m
 al mese per l'utilizzo.
 
 ### La ciabatta
-![Ciabatta di lusso EMANUELE AMODIO](/images/IMG_20250306_205234314_HDR.jpg)
+<img src="/images/IMG_20250306_205234314_HDR.jpg" width="220">
+<br>
 La Ciabatta elettrica multipresa spec. IT-EU - Shucko combined - max. 3000W, colore nero, di Emanuele Amodio si presenta come un
 blocco di mattone di modeste dimensioni collegabile a qualunque presa di corrente. Già dalla presentazione visiva e dalla qualità di
 costruzione il prodotto giustifica la sua denominazione di lusso: i materiali sono pregiati, costituendo un articolo di gran classe,
@@ -23,7 +24,8 @@ con un pratico tasto di accensione e spegnimento blu, a sottolineare il posizion
 plebeo interruttore alogeno.
 
 ### Il filtro dell'acqua
-![Mini fltro depuratore acqua](https://www.easybazar.it/839-thickbox_default/mini-filtro-depuratore-acqua-osmosi-inversa-38.jpg)
+<img src="https://www.easybazar.it/839-thickbox_default/mini-filtro-depuratore-acqua-osmosi-inversa-38.jpg" width="147">
+<br>
 E adesso arriviamo alla vera star dello show, il Mini filtro depuratore acqua a osmosi inversa ⅜ EMANUELE AMODIO. Questo filtro ha fatto
 molto parlare di sé nelle alte sfere per via delle sue alte capacità di portata e costruzione di lusso. Dal punto di vista tecnico questo
 prodotto non pecca da nessun sotto-punto di vista: le specifiche del nostro sono ingresso e uscita di diametro 3/8", ma è offerto anche in
